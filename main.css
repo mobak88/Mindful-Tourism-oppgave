@@ -100,7 +100,6 @@ h6 {
           align-items: center;
   position: relative;
   top: 2rem;
-  margin-top: -14.5rem;
 }
 
 .header-menu {
@@ -152,8 +151,6 @@ li > a:active {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
 }
 
@@ -221,6 +218,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: -12.3rem;
 }
 
 .hero-heading {
