@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
     rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
     rgba(0, 0, 0, 0.07) 0px 16px 16px;
@@ -34,15 +35,16 @@ li > a {
 }
 
 .header-logo__wrapper {
-  padding: 1rem 4.5rem 0 4.5rem;
+  padding: 0.5rem 4.5rem 0 4.5rem;
   background-color: $light-green;
-}
-
-.header-nav__wrapper {
-  margin: 4.5rem;
 }
 
 header {
   position: sticky;
   top: 0;
+}
+
+.logo {
+  width: 9rem;
+  height: 9rem;
 }
