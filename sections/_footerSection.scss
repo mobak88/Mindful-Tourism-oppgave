@@ -1,0 +1,23 @@
+.footer {
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $dark-grey;
+    height: 6rem;
+  }
+
+  &-paragraph {
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  &-link {
+    text-decoration: none;
+    color: $light-green;
+
+    &:hover {
+      color: $dark-green;
+    }
+  }
+}

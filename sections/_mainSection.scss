@@ -1,0 +1,29 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.main {
+  &-image {
+    width: 30%;
+
+    &__middle {
+      margin: 0 4rem 0 4rem;
+    }
+  }
+
+  &-about {
+    background-color: $dark-green;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 12rem 0 12rem 0;
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12rem;
+}

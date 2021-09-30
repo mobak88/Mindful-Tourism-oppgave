@@ -1,0 +1,17 @@
+.button {
+  background-color: $dark-blue-grey;
+  color: #fff;
+  font-size: 3rem;
+  border: none;
+  padding: 2rem 8rem 2rem 8rem;
+  border-radius: 3.8rem;
+
+  &-card {
+    border-radius: 0rem;
+  }
+
+  &:hover {
+    background-color: $dark-grey;
+    color: $light-grey;
+  }
+}

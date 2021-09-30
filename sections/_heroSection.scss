@@ -1,0 +1,21 @@
+.hero {
+  background-image: url(images/lofoten-norway.jpg);
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &-heading {
+    color: $light-green;
+    font-size: 7rem;
+    line-height: 1.1;
+
+    &__bold {
+      color: $light-green;
+      font-size: 9rem;
+      line-height: 1.1;
+    }
+  }
+}

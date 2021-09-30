@@ -1,0 +1,30 @@
+.card {
+  background-color: #fff;
+  width: 30%;
+  max-width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  &-middle {
+    margin: 0 4rem 0 4rem;
+  }
+
+  &-heading {
+    color: $dark-blue-grey;
+    font-size: 3rem;
+    padding: 2.5rem 0 2.5rem 0;
+    background-color: $light-green;
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 0.1rem solid $dark-grey;
+  }
+
+  &-paragraph {
+    font-size: 2rem;
+    margin: 4rem 1rem 4rem 1rem;
+    text-align: center;
+  }
+}

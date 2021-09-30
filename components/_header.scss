@@ -1,0 +1,48 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background-color: $dark-green;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+ul.header-menu {
+  list-style-type: none;
+  border-bottom: none;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  margin-right: 4.5rem;
+  color: #fff;
+
+  &:hover {
+    color: $light-green;
+  }
+
+  &:active {
+    color: $light-green;
+  }
+}
+
+.header-logo__wrapper {
+  padding: 1rem 4.5rem 0 4.5rem;
+  background-color: $light-green;
+}
+
+.header-nav__wrapper {
+  margin: 4.5rem;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}

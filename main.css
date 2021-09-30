@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sora:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Sora", "Open Sans", sans-serif;
+}
+
+.section-heading {
+  font-size: 5rem;
+  color: #153633;
+  margin-bottom: 1.5rem;
+}
+
+.main-paragraph {
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 80%;
+  margin-bottom: 5.5rem;
+}
+
+.button {
+  background-color: #153633;
+  color: #fff;
+  font-size: 3rem;
+  border: none;
+  padding: 2rem 8rem 2rem 8rem;
+  border-radius: 3.8rem;
+}
+
+.button-card {
+  border-radius: 0rem;
+}
+
+.button:hover {
+  background-color: #3a4540;
+  color: #bec3c0;
+}
+
+.card {
+  background-color: #fff;
+  width: 30%;
+  max-width: 40rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-middle {
+  margin: 0 4rem 0 4rem;
+}
+
+.card-heading {
+  color: #153633;
+  font-size: 3rem;
+  padding: 2.5rem 0 2.5rem 0;
+  background-color: #85c9ab;
+  width: 100%;
+  text-align: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom: 0.1rem solid #3a4540;
+}
+
+.card-paragraph {
+  font-size: 2rem;
+  margin: 4rem 1rem 4rem 1rem;
+  text-align: center;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  background-color: #27594a;
+}
+
+.header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul.header-menu {
+  list-style-type: none;
+  border-bottom: none;
+}
+
+li > a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  margin-right: 4.5rem;
+  color: #fff;
+}
+
+li > a:hover {
+  color: #85c9ab;
+}
+
+li > a:active {
+  color: #85c9ab;
+}
+
+.header-logo__wrapper {
+  padding: 1rem 4.5rem 0 4.5rem;
+  background-color: #85c9ab;
+}
+
+.header-nav__wrapper {
+  margin: 4.5rem;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10rem;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3a4540;
+  height: 6rem;
+}
+
+.footer-paragraph {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #85c9ab;
+}
+
+.footer-link:hover {
+  color: #27594a;
+}
+
+.hero {
+  background-image: url(images/lofoten-norway.jpg);
+  background-size: cover;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero-heading {
+  color: #85c9ab;
+  font-size: 7rem;
+  line-height: 1.1;
+}
+
+.hero-heading__bold {
+  color: #85c9ab;
+  font-size: 9rem;
+  line-height: 1.1;
+}
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.main-image {
+  width: 30%;
+}
+
+.main-image__middle {
+  margin: 0 4rem 0 4rem;
+}
+
+.main-about {
+  background-color: #27594a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 12rem 0 12rem 0;
+}
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 12rem;
+}
+/*# sourceMappingURL=main.css.map */
