@@ -263,11 +263,6 @@ header {
           flex-direction: column;
 }
 
-.hero-second {
-  background-image: url(images/trolls-tongue-norway.jpg);
-  height: 70vh;
-}
-
 .hero-heading {
   color: #85c9ab;
   font-size: 7rem;
