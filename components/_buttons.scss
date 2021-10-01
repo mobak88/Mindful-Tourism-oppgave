@@ -3,11 +3,18 @@
   color: #fff;
   font-size: 3rem;
   border: none;
-  padding: 2rem 8rem 2rem 8rem;
+  padding: 2rem 8rem;
   border-radius: 3.8rem;
+  text-decoration: none;
+  text-align: center;
 
   &-card {
     border-radius: 0rem;
+  }
+
+  &-contact {
+    padding: 2rem 12rem;
+    margin-top: 2rem;
   }
 
   &:hover {

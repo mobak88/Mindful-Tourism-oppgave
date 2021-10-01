@@ -1,0 +1,36 @@
+.contact {
+  &-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-bottom: 8rem;
+  }
+
+  &-button__wrapper {
+    display: flex;
+    align-self: center;
+  }
+}
+
+label {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  margin-bottom: 1.5rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 0.1rem solid $dark-blue-grey;
+
+  &::-webkit-input-placeholder {
+    font-size: 1.8rem;
+  }
+}
