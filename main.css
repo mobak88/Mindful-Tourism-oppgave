@@ -91,6 +91,52 @@ h6 {
   text-align: center;
 }
 
+.attractions-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.attractions-section__bottom {
+  margin-bottom: 5rem;
+}
+
+.attractions-wrapper {
+  max-width: 30%;
+  margin-top: 5rem;
+  background-color: #bec3c0;
+}
+
+.attractions-wrapper__middle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.attractions-image {
+  width: 100%;
+}
+
+.attractions-content {
+  padding: 4rem 3rem;
+}
+
+.attractions-heading {
+  color: #153633;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.attractions-paragraph {
+  font-size: 1.8rem;
+}
+
 .header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -215,6 +261,11 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.hero-second {
+  background-image: url(images/trolls-tongue-norway.jpg);
+  height: 70vh;
 }
 
 .hero-heading {

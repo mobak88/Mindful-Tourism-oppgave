@@ -7,6 +7,11 @@
   align-items: center;
   flex-direction: column;
 
+  &-second {
+    background-image: url(images/trolls-tongue-norway.jpg);
+    height: 70vh;
+  }
+
   &-heading {
     color: $light-green;
     font-size: 7rem;

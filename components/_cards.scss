@@ -28,3 +28,44 @@
     text-align: center;
   }
 }
+
+.attractions {
+  &-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    &__bottom {
+      margin-bottom: 5rem;
+    }
+  }
+
+  &-wrapper {
+    max-width: 30%;
+    margin-top: 5rem;
+    background-color: $light-grey;
+
+    &__middle {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+
+  &-image {
+    width: 100%;
+  }
+
+  &-content {
+    padding: 4rem 3rem;
+  }
+
+  &-heading {
+    color: $dark-blue-grey;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &-paragraph {
+    font-size: 1.8rem;
+  }
+}
