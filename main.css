@@ -185,6 +185,10 @@ h6 {
           flex-direction: row;
 }
 
+.header-menu:last-child {
+  margin-right: 7rem;
+}
+
 ul.header-menu {
   list-style-type: none;
   border-bottom: none;
@@ -192,13 +196,15 @@ ul.header-menu {
 
 li > a {
   text-decoration: none;
-  font-size: 2.2rem;
-  margin-right: 4.5rem;
+  font-size: 2rem;
+  padding: 3.7rem 2.5rem;
   color: #fff;
 }
 
 li > a:hover {
   color: #85c9ab;
+  background-color: #3a4540;
+  padding: 3.7rem 2.5rem;
 }
 
 li > a:active {
@@ -219,6 +225,12 @@ header {
 .logo {
   width: 9rem;
   height: 9rem;
+}
+
+.current {
+  color: #85c9ab;
+  background-color: #153633;
+  padding: 3.7rem 2.5rem;
 }
 
 .contact-container {

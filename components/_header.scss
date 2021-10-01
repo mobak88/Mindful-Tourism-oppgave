@@ -12,6 +12,10 @@
 .header-menu {
   display: flex;
   flex-direction: row;
+
+  &:last-child {
+    margin-right: 7rem;
+  }
 }
 
 ul.header-menu {
@@ -21,12 +25,14 @@ ul.header-menu {
 
 li > a {
   text-decoration: none;
-  font-size: 2.2rem;
-  margin-right: 4.5rem;
+  font-size: 2rem;
+  padding: 3.7rem 2.5rem;
   color: #fff;
 
   &:hover {
     color: $light-green;
+    background-color: $dark-grey;
+    padding: 3.7rem 2.5rem;
   }
 
   &:active {
@@ -47,4 +53,10 @@ header {
 .logo {
   width: 9rem;
   height: 9rem;
+}
+
+.current {
+  color: $light-green;
+  background-color: $dark-blue-grey;
+  padding: 3.7rem 2.5rem;
 }
