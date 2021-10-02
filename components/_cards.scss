@@ -1,25 +1,44 @@
 .card {
   background-color: #fff;
-  width: 30%;
-  max-width: 40rem;
+  max-width: 50rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+
+  @include responsive(tab-land) {
+    max-width: 45rem;
+  }
+
+  @include responsive(phone) {
+    max-width: 40rem;
+  }
 
   &-two {
     width: 100%;
 
     &__left {
       margin-right: 3rem;
+
+      @include responsive(tab-land) {
+        margin: 3rem 0;
+      }
     }
 
     &__right {
       margin-left: 3rem;
+
+      @include responsive(tab-land) {
+        margin: 3rem 0;
+      }
     }
   }
 
   &-middle {
-    margin: 0 4rem 0 4rem;
+    margin: 0 4rem;
+
+    @include responsive(tab-land) {
+      margin: 4rem 0;
+    }
   }
 
   &-heading {
@@ -47,6 +66,11 @@
     flex-direction: row;
     justify-content: center;
 
+    @include responsive(tab-land) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     &__bottom {
       margin-bottom: 10rem;
     }
@@ -56,6 +80,10 @@
     max-width: 30%;
     margin-top: 5rem;
     background-color: $light-grey;
+
+    @include responsive(tab-land) {
+      max-width: 70%;
+    }
 
     &__middle {
       margin-left: 2rem;

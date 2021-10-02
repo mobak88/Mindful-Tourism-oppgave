@@ -2,14 +2,27 @@
   display: flex;
   justify-content: center;
   margin-bottom: 6rem;
+
+  @include responsive(tab-land) {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .main {
   &-image {
     width: 30%;
 
+    @include responsive(tab-land) {
+      width: 80%;
+    }
+
     &__middle {
-      margin: 0 4rem 0 4rem;
+      margin: 0 4rem;
+
+      @include responsive(tab-land) {
+        margin: 4rem 0;
+      }
     }
   }
 
@@ -18,7 +31,12 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 12rem 0 12rem 0;
+    padding: 12rem 0;
+
+    @include responsive(tab-land) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 }
 

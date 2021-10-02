@@ -3,6 +3,7 @@ const toggleButton = document.getElementsByClassName(
 )[0];
 const navbarLinks = document.getElementsByClassName("mobile-menu")[0];
 
-toggleButton.addEventListener("click", () => {
+toggleButton.addEventListener("click", (e) => {
+  e.preventDefault(e);
   navbarLinks.classList.toggle("mobile-menu__active");
 });
