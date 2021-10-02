@@ -475,6 +475,7 @@ textarea::-webkit-input-placeholder {
 .footer-paragraph {
   color: #fff;
   font-size: 1.8rem;
+  text-align: center;
 }
 
 .footer-link {
@@ -511,10 +512,22 @@ textarea::-webkit-input-placeholder {
   line-height: 1.1;
 }
 
+@media only screen and (max-width: 500px) {
+  .hero-heading {
+    font-size: 5rem;
+  }
+}
+
 .hero-heading__bold {
   color: #85c9ab;
   font-size: 9rem;
   line-height: 1.1;
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-heading__bold {
+    font-size: 7rem;
+  }
 }
 
 .image-container {

@@ -12,10 +12,18 @@
     font-size: 7rem;
     line-height: 1.1;
 
+    @include responsive(small-phone) {
+      font-size: 5rem;
+    }
+
     &__bold {
       color: $light-green;
       font-size: 9rem;
       line-height: 1.1;
+
+      @include responsive(small-phone) {
+        font-size: 7rem;
+      }
     }
   }
 }
