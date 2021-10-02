@@ -9,6 +9,10 @@
     flex-direction: column;
     width: 45%;
     margin-bottom: 8rem;
+
+    @include responsive(tab-land) {
+      width: 80%;
+    }
   }
 
   &-button__wrapper {
