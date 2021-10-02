@@ -18,6 +18,10 @@ html {
   @include responsive(phone) {
     font-size: 55%;
   }
+
+  @include responsive(small-phone) {
+    font-size: 52.5%;
+  }
 }
 
 body {

@@ -13,6 +13,10 @@
     max-width: 40rem;
   }
 
+  @include responsive(small-phone) {
+    max-width: 30rem;
+  }
+
   &-two {
     width: 100%;
 

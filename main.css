@@ -29,6 +29,12 @@ html {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 52.5%;
+  }
+}
+
 body {
   font-family: "Roboto", "Open Sans", sans-serif;
 }
@@ -46,6 +52,12 @@ h6 {
   font-size: 5rem;
   color: #153633;
   margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .section-heading {
+    font-size: 3.2rem;
+  }
 }
 
 .main-paragraph {
@@ -102,6 +114,12 @@ h6 {
 @media only screen and (max-width: 900px) {
   .card {
     max-width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card {
+    max-width: 30rem;
   }
 }
 
