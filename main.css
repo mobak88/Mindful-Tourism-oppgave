@@ -185,8 +185,70 @@ h6 {
           flex-direction: row;
 }
 
+@media only screen and (max-width: 900px) {
+  .header-menu {
+    display: none;
+  }
+}
+
 .header-menu:last-child {
   margin-right: 7rem;
+}
+
+.header-menu__hamburger {
+  position: absolute;
+  top: 3.5rem;
+  right: 4rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 6rem;
+  height: 3.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .header-menu__hamburger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.header-menu__hamburger .bar {
+  height: 0.3rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.mobile-menu {
+  background-color: #153633;
+  width: 28rem;
+  height: 30rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  top: 9.75rem;
+  right: 0;
+}
+
+.mobile-menu__active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 ul.header-menu {
@@ -194,32 +256,39 @@ ul.header-menu {
   border-bottom: none;
 }
 
-li > a {
+ul.mobile-menu {
+  list-style: none;
+}
+
+.header-menu li > a {
   text-decoration: none;
   font-size: 2rem;
   padding: 3.7rem 2.5rem;
   color: #fff;
 }
 
-li > a:hover {
+.header-menu li > a:hover {
   color: #85c9ab;
   background-color: #3a4540;
   padding: 3.7rem 2.5rem;
 }
 
-li > a:active {
+.mobile-menu li > a {
+  text-decoration: none;
+  font-size: 2rem;
+  width: 100%;
+  color: #fff;
+}
+
+.mobile-menu li > a:hover {
   color: #85c9ab;
+  background-color: #3a4540;
+  padding: 2.4rem 5.5rem;
 }
 
 .header-logo__wrapper {
   padding: 0.5rem 4.5rem 0 4.5rem;
   background-color: #85c9ab;
-}
-
-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
 
 .logo {
@@ -231,6 +300,17 @@ header {
   color: #85c9ab;
   background-color: #153633;
   padding: 3.7rem 2.5rem;
+}
+
+.current-mobile {
+  background-color: #85c9ab;
+  padding: 2.4rem 5.5rem;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .contact-container {
@@ -326,7 +406,7 @@ textarea::-webkit-input-placeholder {
 .hero {
   background-image: url(images/lofoten-norway.jpg);
   background-size: cover;
-  height: 70vh;
+  height: 55vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
