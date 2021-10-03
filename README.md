@@ -10,5 +10,5 @@ The website also utilises SASS.
 
 ![color palette](https://raw.githubusercontent.com/mobak88/Mindful-Tourism-oppgave/main/assets/Skjermbilde.png)
 
-
+See the site live int the link: [Live site](https://stupefied-colden-d47e0c.netlify.app/)
 
