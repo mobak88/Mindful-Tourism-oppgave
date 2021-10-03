@@ -55,16 +55,22 @@
       </div>
       <div class="contact-container">
         <form action="submit" class="contact-form" onsubmit="return false">
-          <label for="Navn">Navn:</label>
-          <input placeholder="Ditt navn" type="text" />
-          <label for="Nummer">Nummer:</label>
-          <input placeholder="Ditt nummer" type="text" />
-          <label for="E-post">E-post:</label>
-          <input placeholder="Din E-post" type="text" />
+          <label for="Navn">Navn*:</label>
+          <input placeholder="Ditt navn" type="text" name="Navn" required />
+          <label for="Nummer">Nummer*:</label>
+          <input placeholder="Ditt nummer" type="tel" name="Nummer" required />
+          <label for="E-post">E-post*:</label>
+          <input placeholder="Din E-post" type="email" name="E-post" required />
           <label for="Emne">Emne:</label>
-          <input placeholder="Ditt emne" type="text" />
-          <label for="">Melding:</label>
-          <textarea name="Melding" cols="30" rows="10"></textarea>
+          <input placeholder="Ditt emne" type="text" name="Emne" />
+          <label for="Melding">Melding*:</label>
+          <textarea
+            name="Melding"
+            cols="30"
+            rows="10"
+            name="Melding"
+            required
+          ></textarea>
           <div class="contact-button__wrapper">
             <button type="submit" class="button button-contact">Send</button>
           </div>

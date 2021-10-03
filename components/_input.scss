@@ -38,3 +38,13 @@ textarea {
     font-size: 1.8rem;
   }
 }
+
+.error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-style: italic;
+  margin-bottom: 1em;
+}
