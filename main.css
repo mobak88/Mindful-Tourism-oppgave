@@ -94,7 +94,8 @@ h6 {
 
 .card {
   background-color: #fff;
-  max-width: 50rem;
+  max-width: 30%;
+  width: 50rem;
   border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -280,7 +281,7 @@ h6 {
 
 .header-menu__hamburger {
   position: absolute;
-  top: 3.5rem;
+  top: 3.4rem;
   right: 4rem;
   display: none;
   -webkit-box-orient: vertical;
