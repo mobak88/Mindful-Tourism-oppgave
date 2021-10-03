@@ -2,7 +2,7 @@
 
 This is my take on the design, we got provided with a color pallette and a logo, along with requirements.
 
-The website is responive, with a custom mobile navigation and a second version of the header that you can check out in the alternative-header branch.
+The website is responive, with a custom mobile navigation and has a second version of the header that you can check out in the alternative-header branch.
 
 The website also utilises SASS. 
 
