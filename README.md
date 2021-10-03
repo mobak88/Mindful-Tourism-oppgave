@@ -6,4 +6,3 @@ The website is responive, with a custom mobile navigation and a second version o
 
 ![alt text](https://github.com/[mobak88]/[Mindful-Tourism-oppgave]/blob/[main]/skjermbilde.png?raw=true)
 
-![Header/intro section](https://raw.githubusercontent.com/mobak88/Mindful-Tourism-oppgave/main/assets/Skjermbilde.png)
