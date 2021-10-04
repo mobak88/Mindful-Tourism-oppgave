@@ -1,3 +1,5 @@
+"use strict";
+
 const toggleButton = document.getElementsByClassName(
   "header-menu__hamburger"
 )[0];
@@ -11,4 +13,5 @@ toggleButton.addEventListener("click", (e) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
+  console.log("Submitted");
 });
