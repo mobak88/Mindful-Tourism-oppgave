@@ -10,8 +10,3 @@ toggleButton.addEventListener("click", (e) => {
   e.preventDefault();
   navbarLinks.classList.toggle("mobile-menu__active");
 });
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  console.log("Submitted");
-});
